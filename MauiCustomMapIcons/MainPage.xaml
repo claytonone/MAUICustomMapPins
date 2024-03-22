@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ctrl="clr-namespace:MauiCustomMapIcons.Controls"
+             xmlns:local="clr-namespace:MauiCustomMapIcons"
+             x:Class="MauiCustomMapIcons.MainPage"
+             x:DataType="local:MainPage">
+    <Grid>
+        <ctrl:MapEx CustomPins="{Binding Pins}" />
+    </Grid>
+</ContentPage>
